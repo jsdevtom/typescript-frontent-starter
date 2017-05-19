@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    // Tree-shaking support in webpack relies on ES2015 module syntax (import and export). In order to enable it, we need to tell Typescript to compile .ts and .tsx files to ES2015.
+    // Babel will compile it to ES5 as per the webpack configs
     "target": "es6",
     "module": "es6",
     "outDir": "./dist/",
