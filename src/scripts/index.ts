@@ -4,6 +4,6 @@ import '../styles/sass.scss'
 export const hi = 'hi'
 
 setTimeout(function() {
-  document.querySelector('#greeting').innerHTML = 'works'
+  document.querySelector('#greeting').textContent += 'GO'
   
 }, 2000);
