@@ -62,6 +62,7 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js', '.html']
   },
   plugins: [
+    extractPlugin,
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     }),
