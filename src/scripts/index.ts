@@ -1,4 +1,5 @@
 import '../styles/main.css'
+import '../styles/sass.scss'
 
 export const hi = 'hi'
 
