@@ -1,6 +1,9 @@
 # typescript-frontent-starter
 TypeScipt FrontEnd Webpack Basic Setup/ Development Environment
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
+
 Thanks, [Maximilian Schwarzmüller](https://github.com/mschwarzmueller) for the base project found [here](https://github.com/mschwarzmueller/yt-webpack2-basics)
 
 <h2 align="center">Clone the repo</h2>
