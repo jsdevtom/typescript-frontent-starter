@@ -1,9 +1,8 @@
 import '../styles/main.css'
 import '../styles/sass.scss'
 
-export const hi = 'hi'
+import { go } from './mod'
 
 setTimeout(function() {
-  document.querySelector('#greeting').textContent += 'GO'
-  
-}, 2000);
+  document.querySelector('#greeting').textContent += go  
+}, 2000)
